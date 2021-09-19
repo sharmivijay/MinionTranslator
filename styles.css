@@ -1,0 +1,12 @@
+
+.output-txt{
+    border: 1px solid black;
+    padding:.5rem .5rem ;
+    max-width: 355px;
+    margin-top: 2rem;
+    height: 4rem;
+}
+
+.input-btn{
+    margin-top: 2rem;
+}
