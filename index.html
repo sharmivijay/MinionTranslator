@@ -11,22 +11,38 @@
 
 <body>
     <!-- 
-        When i try to execute with the scrit tag at frst place .. it failed to execute addEventListener. 
+        When i try to execute with the scrit tag at first place .. it failed to execute addEventListener. 
         and then i added the script tag at the bottom of the body which worked
 
         <script src="app.js" type="text/javascript"></script> -->
-    <div>
-        <p>lets try the Minion translator</p>
-        <textarea id="input-txt" placeholder="You can enter the text here to translate to minion" rows="5"
-            cols="50"></textarea>
-     <div>
-        <button id="btn-translate">How minion would say </button>
-     </div>       
-    </div>
-    <p>Minion language would be 👇 </p>
-    <div class="output-txt"></div>
+        <header class="header container">
+            <h1 class="header-txt">Minion translator</h1>
+        </header> 
+        <div class="container">
+            <textarea  id="input-txt" placeholder="You can enter the text here to translate to minion language" rows="5"
+                cols="75"></textarea>
+        </div>
+        <section class="section"> 
+            <button class="btn" id="btn-translate">How minion would say👇</button>
+        </section>
+        <section class="section">
+            <p>Here is your translation</p>
+        </section>
+        
+        <div class="container">
+            <section class="section output-txt">
+                
+            </section>
+        </div>
+        <div class="footer container">
+            <h4 class="footer-txt">Do you like minion movies and wonder what are they speaking.. You can try this translator</h4>
+        </div>
     <script src="app.js" type="text/javascript"></script>
+    
 
 </body>
 
 </html>
+
+
+ 

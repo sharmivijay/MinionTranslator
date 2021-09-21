@@ -1,12 +1,78 @@
+@import url('https://fonts.googleapis.com/css2?family=Gluten&display=swap');
 
-.output-txt{
-    border: 1px solid black;
-    padding:.5rem .5rem ;
-    max-width: 355px;
-    margin-top: 2rem;
-    height: 4rem;
+
+:root{
+    --primary-color: #FDE68A;
 }
 
-.input-btn{
-    margin-top: 2rem;
+body{
+    font-family: 'Gluten', cursive;
+    margin: 0px auto;
+    overflow-y: hidden;
+}
+
+.container{
+    width: 500px;
+    margin: 0px auto;
+    height: 20vh;
+    
+}
+
+.header{
+    background-color: var(--primary-color);
+    
+}
+
+.header-txt{
+    text-align: center;
+    padding: 2.5rem;
+    font-size: xxx-large;
+    margin: 0px auto;
+}
+
+.container{
+    width: 800px;
+    height: 18vh;
+    margin: auto;
+}
+
+#input-txt{
+    margin: 2rem 7.75rem;
+}
+
+.section{
+    padding: 1.47rem;
+    width: 550px;
+    margin: auto;
+    height: 0.9rem;
+    
+}
+
+.container .section{
+    margin:  2rem 7.75rem;
+    height: 3rem;
+    border: 1px solid black;
+    width: auto;
+}
+
+
+.btn{
+    width: 15rem;
+    padding: 7px;
+    height: 7vh;
+    font-family: 'Gluten', cursive;
+    background-color: var(--primary-color);
+    font-size: large;
+    border-color:whitesmoke;
+
+}
+.footer{
+    margin-bottom: 0px;
+    margin-left: auto;
+    margin-right: auto;
+    background-color: var(--primary-color);
+}
+.footer-txt{
+ text-align: center;
+ padding-top: 3.5rem ;
 }
