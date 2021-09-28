@@ -2,24 +2,6 @@ var btnTranslate = document.querySelector("#btn-translate");
 var inputText = document.querySelector("#input-txt");
 var outputText = document.querySelector(".output-txt");
 
-/**
- * This funtion is an example of detailed function and I have written the same using arrow functions
- * function callHandler(){
-    fetch(translateUrl+"?text="+inputText.value)
-    .then(function (response)
-    {
-        if(response.ok){
-            return response.json();
-            }
-    }
-    ).then(function (data)
-    {
-        outputText.innerHTML= data.contents.translated;
-    })
-    .catch(errorHandler);
-    
-};**/
-
 function callHandler(){
     var finalUrl= translateUrl+"?text="+inputText.value;
     console.log(finalUrl);
